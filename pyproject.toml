@@ -8,6 +8,10 @@ packages = [{include = "rep_for_test_task"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+requests = "^2.31.0"
+allure-pytest = "^2.13.2"
+dynaconf = "^3.2.4"
+playwright = "^1.40.0"
 
 
 [build-system]

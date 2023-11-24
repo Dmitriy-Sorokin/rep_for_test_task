@@ -1,1 +1,1 @@
-# rep_for_test_task
+Чек лист можете посмотреть сдесь - https://docs.google.com/document/d/1Fsr1JZuxmMC1rau8GM_TXhdze0Uv5re1dtxm4PJTv_s/edit

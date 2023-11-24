@@ -1,0 +1,4 @@
+[development]
+
+url_with_users = "https://jsonplaceholder.typicode.com/users"
+url_test_env = "https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1"
