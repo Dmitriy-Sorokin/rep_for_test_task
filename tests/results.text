@@ -1,0 +1,5 @@
+Test_login_wrong_user_name: successful 
+Test_wrong_phone: successful
+Test_empty_field_login: successful
+Test_empty_field_phone: successful
+Test_user_does_not_exist: successful
