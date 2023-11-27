@@ -2,7 +2,7 @@ import time
 from config import settings
 
 from api.http_methods import method_get
-from page_object.login_page import PageLogin
+from pages.login_page import PageLogin
 
 
 def test_login_wrong_user_name(browser_fixture):
