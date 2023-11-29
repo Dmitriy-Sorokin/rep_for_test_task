@@ -7,15 +7,11 @@ import os
 def browser_fixture():
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=False)
-        context = browser.new_context(no_viewport=True)
-        context.tracing.start(screenshots=True, snapshots=True, sources=True)
+        context = browser.new_context(viewport={"width": 1200, "height": 1200})
         page = context.new_page()
-        viewport_size = {"width": 1200, "height": 1200}
-        page.set_viewport_size(viewport_size=viewport_size)
         yield page
-        # context.tracing.stop(path="trace.zip")
         page.close()
-        browser.close()
+        context.close()
 
 
 @pytest.fixture(scope="session")
